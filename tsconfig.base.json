@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ES2020",
+    "moduleResolution": "Node",
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@repo/eslint-config/*": ["packages/eslint-config/*"],
+      "@repo/tsconfig*": ["packages/typescript-config/*"]
+    }
+  }
+}
